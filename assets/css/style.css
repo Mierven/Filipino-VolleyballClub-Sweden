@@ -58,3 +58,29 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
+/*fvcs-image*/
+
+#fvcs-image {
+    height: 800px;
+    weight: 100%;
+    background: url('../images/FVCS-image.jpg') no-repeat center center;
+
+    /*animates zoom efect on loading page */
+    animation-name: fvcs-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: none;
+}
+
+@keyframes fvcs-zoom {
+    from {
+        transform: scale (1);
+
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
+}
