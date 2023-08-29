@@ -1,5 +1,10 @@
+* {margin: 0;
+   padding: 0;
+   border:   
+}
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Oswald:wght@200;300;400;600&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
