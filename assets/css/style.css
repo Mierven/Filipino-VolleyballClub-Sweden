@@ -25,3 +25,17 @@ h2 {
     float: left;
     font-size: 270%;
 }
+
+/*navagation links*/
+
+#navbar {
+    font: 120%;
+    letter-spacing: 4px;
+
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
