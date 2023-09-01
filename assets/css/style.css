@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    background-color: aquamarine;
+    background: linear-gradient(#fff33f, #ffee);
 }
 
 /* Headings and Logo*/
@@ -132,4 +132,32 @@ h2 {
 .pic1, .pic2, .pic3, .pic4, .pic5 {height: 370px;
        width: 370px;
     position: center;
-    margin-left: 3.5px;}
+    margin-left: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;    }
+.pic6, .pic7, .pic8 {
+        height: 600px;
+        width: 600px;
+        position: center;
+        margin-left: 3px;
+        border-radius: 50%;
+        border: 3px solid #333;
+        padding: 2px;
+        background-color: #fff;
+        
+    }
+
+#text1 {color: violet;
+        position: relative;
+    margin-bottom: 100px;
+    text-decoration: underline;}
+
+
+#text2 {
+        color: violet;
+        position: relative;
+        margin-bottom: 100px;
+        text-decoration: underline;
+    }
