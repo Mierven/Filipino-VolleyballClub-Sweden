@@ -26,6 +26,7 @@ h2 {
 }
 
 
+
 /*navagation links*/
 
 #navbar {
@@ -59,6 +60,7 @@ h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 #fvcs-image {
     height: 600px;
     width: 100%;
@@ -79,9 +81,12 @@ h2 {
     animation-name: fvcs-zoom;
     animation-duration: 5s;
     animation-fill-mode: none;
-        
+
 }
-#players {height: 50px;}
+
+#players {
+    height: 50px;
+}
 
 @keyframes fvcs-zoom {
     from {
@@ -94,20 +99,22 @@ h2 {
 
     }
 }
+
 #Introduction-text,
 #Introduction-text h2 {
     color: #fff;
 }
+
 #Introduction-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 
-    padding-top: 40px;
+    padding-bottom: 60px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
@@ -117,3 +124,12 @@ h2 {
 
     position: absolute;
 }
+
+#Logo h1 {
+    background-image: url('images/fvcs-photo.jpg');
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5 {height: 370px;
+       width: 370px;
+    position: center;
+    margin-left: 3.5px;}
