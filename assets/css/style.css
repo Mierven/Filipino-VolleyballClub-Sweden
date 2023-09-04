@@ -38,7 +38,7 @@ h2 {
 
 #navbar,
 #Logo {
-    line-height: px;
+    line-height: 75px;
 
 }
 
@@ -129,35 +129,86 @@ h2 {
     background-image: url('images/fvcs-photo.jpg');
 }
 
-.pic1, .pic2, .pic3, .pic4, .pic5 {height: 370px;
-       width: 370px;
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+    height: 370px;
+    width: 370px;
     position: center;
     margin-left: 3px;
     border-top-left-radius: 20px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 40px;    }
-.pic6, .pic7, .pic8 {
-        height: 600px;
-        width: 600px;
-        position: center;
-        margin-left: 3px;
-        border-radius: 50%;
-        border: 3px solid #333;
-        padding: 2px;
-        background-color: #fff;
-        
-    }
+    border-bottom-right-radius: 40px;
+}
 
-#text1 {color: violet;
-        position: relative;
+.pic6,
+.pic7,
+.pic8 {
+    height: 600px;
+    width: 600px;
+    position: center;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    padding: 2px;
+    background-color: #fff;
+
+}
+
+#text1 {
+    color: violet;
+    position: relative;
     margin-bottom: 100px;
-    text-decoration: underline;}
+    text-decoration: underline;
+}
 
 
 #text2 {
-        color: violet;
-        position: relative;
-        margin-bottom: 100px;
-        text-decoration: underline;
-    }
+    color: violet;
+    position: relative;
+    margin-bottom: 100px;
+    text-decoration: underline;
+}
+
+.pica,
+.picb,
+.picc,
+.picd,
+.pice,
+.picf,
+.picg,
+.pich,
+.pici,
+.picj,
+.pick,
+.picl,
+.picm,
+.picn,
+.pico,
+.picp,
+.picq,
+.picr,
+.pics {
+    height: 370px;
+    width: 370px;
+    position: center;
+    margin-left: 3px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+}
+
+#gallery li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-bottom: 50px;
+    line-height: 75px;
+
+
+}
+#images {padding-top: 150px;}
