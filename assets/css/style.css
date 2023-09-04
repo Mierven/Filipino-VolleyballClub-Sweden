@@ -208,7 +208,27 @@ h2 {
     margin-right: 30px;
     padding-bottom: 50px;
     line-height: 75px;
-
-
+    list-style-type: none;
 }
+    
+#gallery a {text-decoration: none;}
+
+
+
 #images {padding-top: 150px;}
+
+
+
+.contact-boxes-container {
+    height: 270px;
+}
+
+.contact-box {
+    flex: 0 250px;
+    height: 250px;
+}
+#contact {position: relative;
+}
+
+#form {float: right;
+       }
