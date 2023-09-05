@@ -74,7 +74,6 @@ h2 {
 
 #fvcs-image {
     height: 800px;
-    weight: 80%;
     background: url('../images/FVCS-image.jpg') no-repeat center center;
 
     /*animates zoom efect on loading page */
@@ -112,14 +111,14 @@ h2 {
     letter-spacing: 4px;
 
     width: 500px;
-    height: 300px;
+    height: 400px;
 
-    padding-bottom: 60px;
+    padding-top: 200px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 30px;
+    bottom: 100px;
     right: 150px;
 
     position: absolute;
@@ -211,11 +210,12 @@ h2 {
     list-style-type: none;
 }
     
-#gallery a {text-decoration: none;}
+#gallery a {text-decoration: none;
+             }
 
 
 
-#images {padding-top: 150px;}
+#images {padding-top: 250px;}
 
 
 
@@ -232,3 +232,13 @@ h2 {
 
 #form {float: right;
        }
+@media screen and (max-width: 950px)
+ {
+#navbar li {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+}
+ }
