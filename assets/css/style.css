@@ -142,14 +142,20 @@ h2 {
 .pic3,
 .pic4,
 .pic5 {
-    height: 370px;
-    width: 370px;
+    height: 400px;
+    width: 400px;
     position: center;
     margin-left: 3px;
     border-top-left-radius: 20px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px;
+    
+}
+#tournaments {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 .pic6,
@@ -217,7 +223,9 @@ h2 {
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px;
 }
-
+img:hover {cursor: pointer;
+    opacity: 0.5;
+transition: 0.5s;}
 #gallery li {
     float: right;
     list-style-type: none;
