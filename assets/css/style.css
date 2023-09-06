@@ -110,7 +110,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 500px;
+    width: 400px;
     height: 400px;
 
     padding-top: 200px;
@@ -118,10 +118,19 @@ h2 {
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 100px;
+    bottom: 150px;
     right: 150px;
+    border-radius: 50px;
+    margin-left: 50px;
 
     position: absolute;
+    
+
+}
+
+
+#Introduction-text p {text-transform: lowercase;
+    
 }
 
 #Logo h1 {
@@ -154,8 +163,16 @@ h2 {
     border: 3px solid #333;
     padding: 2px;
     background-color: #fff;
-
+    
 }
+
+
+
+#location {display:flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+  
 
 #text1 {
     color: violet;
@@ -217,21 +234,18 @@ h2 {
 
 #images {padding-top: 250px;}
 
-
-
-.contact-boxes-container {
-    height: 270px;
-}
-
 .contact-box {
-    flex: 0 250px;
-    height: 250px;
+    flex:  250px;
+    height: 150px;
 }
-#contact {position: relative;
-}
+
+#contact h3 {text-decoration: underline;}
+
+
 
 #form {float: right;
        }
+
 @media screen and (max-width: 950px)
  {
 #navbar li {
@@ -242,3 +256,7 @@ h2 {
         line-height: 25px;
 }
  }
+ #Introduction-text {left: 0;}
+
+
+  
