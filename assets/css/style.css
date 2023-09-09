@@ -124,13 +124,14 @@ h2 {
     margin-left: 50px;
 
     position: absolute;
-    
+
 
 }
 
 
-#Introduction-text p {text-transform: lowercase;
-    
+#Introduction-text p {
+    text-transform: lowercase;
+
 }
 
 #Logo h1 {
@@ -150,8 +151,9 @@ h2 {
     border-top-right-radius: 60px;
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px;
-    
+
 }
+
 #tournaments {
     display: flex;
     margin: auto;
@@ -169,16 +171,17 @@ h2 {
     border: 3px solid #333;
     padding: 2px;
     background-color: #fff;
-    
+
 }
 
 
 
-#location {display:flex;
+#location {
+    display: flex;
     margin: auto;
     flex-wrap: wrap;
 }
-  
+
 
 #text1 {
     color: violet;
@@ -223,9 +226,13 @@ h2 {
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px;
 }
-img:hover {cursor: pointer;
+
+img:hover {
+    cursor: pointer;
     opacity: 0.5;
-transition: 0.5s;}
+    transition: 0.5s;
+}
+
 #gallery li {
     float: right;
     list-style-type: none;
@@ -234,37 +241,42 @@ transition: 0.5s;}
     line-height: 75px;
     list-style-type: none;
 }
-    
-#gallery a {text-decoration: none;
-             }
+
+#gallery a {
+    text-decoration: none;
+}
 
 
 
-#images {padding-top: 250px;}
+#images {
+    padding-top: 250px;
+}
 
 .contact-box {
-    flex:  250px;
+    flex: 250px;
     height: 150px;
 }
 
-#contact h3 {text-decoration: underline;}
+#contact h3 {
+    text-decoration: underline;
+}
 
 
 
-#form {float: right;
-       }
+#form {
+    float: right;
+}
 
-@media screen and (max-width: 950px)
- {
-#navbar li {
+@media screen and (max-width: 950px) {
+    #navbar li {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
 }
- }
- #Introduction-text {left: 0;}
 
-
-  
+#Introduction-text {
+    left: 0;
+}
