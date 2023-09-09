@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    background: linear-gradient(#fff33f, #ffee);
+    background: linear-gradient(#3fb2ff, #ffee);
 }
 
 /* Headings and Logo*/
@@ -113,15 +113,15 @@ h2 {
     width: 400px;
     height: 400px;
 
-    padding-top: 200px;
+    padding-top: 5px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 150px;
-    right: 150px;
+    bottom: 10px;
+    right: 50px;
     border-radius: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
 
     position: absolute;
 
@@ -275,8 +275,4 @@ img:hover {
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
-
-#Introduction-text {
-    left: 0;
 }
