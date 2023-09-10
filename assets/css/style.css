@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    background: linear-gradient(#3fb2ff, #ffee);
+    background-color: #fff;
 }
 
 /* Headings and Logo*/
@@ -62,11 +62,15 @@ h2 {
 }
 
 #fvcs-image {
-    height: 300px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
+    padding: 16px;
+    text-align: center;
+    border-radius: 75px 75px;
+
 }
 
 
@@ -275,4 +279,6 @@ img:hover {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+
 }
