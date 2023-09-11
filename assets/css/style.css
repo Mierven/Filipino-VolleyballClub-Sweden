@@ -87,9 +87,6 @@ h2 {
 
 }
 
-#players {
-    height: 50px;
-}
 
 @keyframes fvcs-zoom {
     from {
@@ -265,12 +262,32 @@ img:hover {
     text-decoration: underline;
 }
 
+/*form*/
 
+
+
+#navform {
+    font: 120%;
+    letter-spacing: 4px;
+    padding-top: 50px;}
+
+#navform li {display: inline;
+             float: left;
+              position: relative;
+            letter-spacing: 4px;
+            margin-right: 30px;}
+#navform a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+#navform a {text-decoration: none;
+color: inherit;}
 
 #form {
-    float: right;
+    float: center;
+    height: 20vh;
+    width: 70px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
 }
-
 @media screen and (max-width: 950px) {
     #navbar li {
         clear: left;
