@@ -198,7 +198,7 @@ h2 {
     margin-bottom: 100px;
     text-decoration: underline;
 }
-
+/*gallery*/
 .pica,
 .picb,
 .picc,
@@ -227,6 +227,22 @@ h2 {
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px;
 }
+#gallery {
+    font: 120%;
+    letter-spacing: 4px;
+    padding-top: 50px;}
+        #gallery a {
+            text-decoration: none;
+            color: inherit;
+        }
+    
+        #gallery a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+    
+        .active1a {
+            border-bottom: 1px solid #3a3a3a;
+        }
 
 img:hover {
     cursor: pointer;
@@ -265,7 +281,12 @@ img:hover {
 /*form*/
 
 
-
+#form {
+    float: center;
+    height: 20vh;
+    width: 70px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+}
 #navform {
     font: 120%;
     letter-spacing: 4px;
@@ -279,15 +300,12 @@ img:hover {
 #navform a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+.active2 {border-bottom: 1px solid #3a3a3a;}
 #navform a {text-decoration: none;
 color: inherit;}
 
-#form {
-    float: center;
-    height: 20vh;
-    width: 70px;
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
-}
+
+
 @media screen and (max-width: 950px) {
     #navbar li {
         clear: left;
