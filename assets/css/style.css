@@ -183,9 +183,8 @@ h2 {
 }
 
 /*contact*/
-#contact div {
-    text-align: center;
-}
+.bold {font-weight: 900;}
+.undertext {text-decoration: underline;}
 
 /*footer*/
 
@@ -360,9 +359,15 @@ img:hover {
         width: 300px;
         top: 1000px;
         
+
     }
 
-   #fvcs-image {height: 50px;}
+    #fvcs-image {
+        height: 50px;
+        width: 500px;
+    }
+
+    
 
 
 }
