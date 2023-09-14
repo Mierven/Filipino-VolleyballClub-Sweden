@@ -250,19 +250,25 @@ h2 {
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px;
 }
+#gallery-logo  {float: left;
+ font-size: 270%;}
 
-#gallery {
+#gallerynav {
     font: 120%;
     letter-spacing: 4px;
     padding-top: 50px;
 }
+#gallerynav li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;}
 
-#gallery a {
+#gallerynav a {
     text-decoration: none;
     color: inherit;
 }
 
-#gallery a:hover {
+#gallerynav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -292,7 +298,7 @@ img:hover {
 
 
 #images {
-    padding-top: 250px;
+    padding-top: 100px;
 }
 
 .contact-box {
@@ -319,13 +325,15 @@ img:hover {
     padding: 20px 30% 0 30%;
     flex-grow: 1;
     display: inline-block;
+  
 }
 
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(212, 22, 22, 0.6);
-    padding: 10px;
+    padding: 30px;
+    border-radius: 75px 75px;
 }
 
 
@@ -410,6 +418,11 @@ img:hover {
         height: 50px;
         width: 500px;
     }
+    #gallerynav li {clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;}
 
 
 
