@@ -124,6 +124,7 @@ h2 {
 
     bottom: 5px;
     right: 5px;
+    margin-top: 100;
     border-radius: 50px;
     margin-left: 10px;
 
@@ -407,9 +408,9 @@ img:hover {
     }
 
     #Introduction-text {
-        top: 1600px;
-        width: 300px;
         top: 1000px;
+        width: 300px;
+        
 
 
     }
