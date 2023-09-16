@@ -23,7 +23,7 @@ h2 {
 
 #Logo {
     float: left;
-    font-size: 270%;
+    font-size: 250%;
 
 }
 
@@ -32,8 +32,8 @@ h2 {
 /*navagation links*/
 
 #navbar {
-    font: 120%;
-    letter-spacing: 4px;
+    font: 100%;
+    letter-spacing: 3px;
     padding-top: 50px;
 
 }
@@ -47,7 +47,7 @@ h2 {
 #navbar li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 #navbar a {
