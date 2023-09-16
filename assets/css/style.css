@@ -22,10 +22,15 @@ h2 {
 }
 
 #Logo {
-    float: left;
-    font-size: 250%;
+   
+    font-size: 300%;
+    
 
 }
+#logo1a {font-size:270%;
+        text-align: center;
+        color: deepskyblue;
+    }
 
 
 
@@ -64,16 +69,17 @@ h2 {
 }
 
 #fvcs-image {
-    height: 250px;
+    height: 260px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
     padding: 16px;
-    text-align: center;
+    text-align: left;
     border-radius: 75px 75px;
 
 }
+ #fvcimage1a {}       
 
 
 /*fvcs-image*/
@@ -114,22 +120,23 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
 
     padding-top: 5px;
     padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
-    top: 500px;
+    bottom: 650px;
     right: 5px;
     margin-top: 100px;
     border-radius: 50px;
     margin-left: 10px;
 
-    position: absolute;
-    overflow: hidden;
+    position: relative;
+    overflow: scroll;
+    display: flex;
 
 
 }
@@ -156,6 +163,8 @@ h2 {
     border-bottom-right-radius: 40px;
 
 }
+#prev {display: block;
+       margin-top: 0;}
 
 #tournaments {
     display: flex;
@@ -241,9 +250,11 @@ h2 {
 .picp,
 .picq,
 .picr,
-.pics {
-    height: 370px;
-    width: 370px;
+.pics
+
+ {
+    height: 206px;
+    width: 206px;
     position: center;
     margin-left: 3px;
     border-top-left-radius: 20px;
@@ -408,8 +419,8 @@ img:hover {
     }
 
     #Introduction-text {
-        top: 1000px;
-        width: 300px;
+        bottom: 840px;
+        width: 380px;
         
 
 
