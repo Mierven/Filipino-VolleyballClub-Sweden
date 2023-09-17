@@ -50,6 +50,7 @@ h2 {
     margin: 0;
 
 }
+
 #navbar {
     display: flex;
     flex-direction: row-reverse;
@@ -225,11 +226,14 @@ h2 {
 .undertext {
     text-decoration: underline;
 }
-#contact {display: flex;
+
+#contact {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    text-align: center;}
+    text-align: center;
+}
 
 
 
@@ -293,7 +297,7 @@ h2 {
 }
 
 #gallery-logo {
-    
+
     font-size: 270%;
 }
 
@@ -301,12 +305,15 @@ h2 {
     font: 120%;
     letter-spacing: 4px;
     padding-top: 50px;
-    
+
     margin-right: 30px;
 }
-#gallerynav {display: flex;
+
+#gallerynav {
+    display: flex;
     flex-direction: row-reverse;
-    flex-wrap: nowrap;}
+    flex-wrap: nowrap;
+}
 
 #gallerynav li {
     float: right;
@@ -350,7 +357,7 @@ img:hover {
 
 #images {
     padding-top: 100px;
-    
+
 }
 
 .contact-box {
@@ -364,7 +371,7 @@ img:hover {
 
 /*form*/
 #member-logo {
-    
+
     font-size: 270%;
 }
 
@@ -433,24 +440,23 @@ img:hover {
 
 
 @media screen and (max-width: 500px) {
-  
+
     #navform {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column-reverse;
-            bottom: 80px;
-        }
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        bottom: 80px;
+    }
+
     #navform li {
-        
+
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
 
     }
 
-    #fvcs-logo {
-        
-    }
+    #fvcs-logo {}
 
     #fvcs-image {
         padding-top: 800px;
@@ -490,17 +496,25 @@ img:hover {
         background-color: #fff;
 
     }
-    #images {margin-top:0px}
-    #gallerynav {display: flex;
+
+    #images {
+        margin-top: 0px
+    }
+
+    #gallerynav {
+        display: flex;
         justify-content: space-between;
         flex-direction: column-reverse;
-       bottom:80px; }
-    #navbar 
-            {display: flex;
-            justify-content: space-between;
-            flex-direction: column-reverse;
-            bottom: 80px;}
-        }
+        bottom: 80px;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        bottom: 80px;
+    }
+}
 
 
 
@@ -518,11 +532,13 @@ img:hover {
         align-items: baseline;
         justify-content: space-around;
     }
-         #tournaments {
-             display: flex;
-             margin: auto;
-             flex-wrap: wrap;
-             justify-content: center;}
 
-             
+    #tournaments {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
 }
