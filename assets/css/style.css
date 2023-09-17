@@ -50,6 +50,11 @@ h2 {
     margin: 0;
 
 }
+#navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
 
 #navbar,
 #Logo {
@@ -288,7 +293,7 @@ h2 {
 }
 
 #gallery-logo {
-    float: left;
+    
     font-size: 270%;
 }
 
@@ -296,7 +301,12 @@ h2 {
     font: 120%;
     letter-spacing: 4px;
     padding-top: 50px;
+    
+    margin-right: 30px;
 }
+#gallerynav {display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;}
 
 #gallerynav li {
     float: right;
@@ -354,7 +364,7 @@ img:hover {
 
 /*form*/
 #member-logo {
-    float: left;
+    
     font-size: 270%;
 }
 
@@ -423,17 +433,15 @@ img:hover {
 
 
 @media screen and (max-width: 500px) {
-    #navbar li {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
+  
+    #navform {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+            bottom: 80px;
+        }
     #navform li {
-        clear: left;
-        float: left;
+        
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -441,7 +449,7 @@ img:hover {
     }
 
     #fvcs-logo {
-        padding-top: 900px;
+        
     }
 
     #fvcs-image {
@@ -482,13 +490,22 @@ img:hover {
         background-color: #fff;
 
     }
-    #images {margin-top:200px}
+    #images {margin-top:0px}
+    #gallerynav {display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+       bottom:80px; }
+    #navbar 
+            {display: flex;
+            justify-content: space-between;
+            flex-direction: column-reverse;
+            bottom: 80px;}
+        }
 
 
 
 
 
-}
 
 @media screen and (min-width: 800px) {
 
