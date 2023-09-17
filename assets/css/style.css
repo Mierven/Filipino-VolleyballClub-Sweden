@@ -499,6 +499,10 @@ img:hover {
         align-items: baseline;
         justify-content: space-around;
     }
-
+         #tournaments {
+             display: flex;
+             margin: auto;
+             flex-wrap: wrap;
+             justify-content: center;}
 
 }
