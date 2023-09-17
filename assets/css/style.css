@@ -27,7 +27,7 @@ h2 {
 
     font-size: 250%;
     text-decoration: none;
-    
+
 }
 
 #logo1a {
@@ -77,7 +77,9 @@ h2 {
 }
 
 
-#fvcsimage1a {height: 950px;}
+#fvcsimage1a {
+    height: 950px;
+}
 
 
 /*fvcs-image*/
@@ -97,7 +99,7 @@ h2 {
     animation-name: fvcs-zoom;
     animation-duration: 5s;
     animation-fill-mode: none;
-    
+
 
 }
 
@@ -141,7 +143,7 @@ h2 {
     margin-left: 10px;
 
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     display: flex;
 
 
@@ -184,14 +186,16 @@ h2 {
 .pic6,
 .pic7,
 .pic8 {
-    height: 600px;
-    width: 600px;
-    position: center;
+    height: 500px;
+    width: 500px;
+    position: left;
     margin-left: 3px;
     border-radius: 50%;
     border: 3px solid #333;
     padding: 2px;
     background-color: #fff;
+    display: flex;
+
 
 }
 
@@ -201,6 +205,11 @@ h2 {
     display: flex;
     margin: auto;
     flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*contact*/
@@ -434,7 +443,7 @@ img:hover {
     }
 
     #Introduction-text {
-        bottom: 840px;
+        bottom: 570px;
         width: 380px;
 
 
@@ -453,10 +462,38 @@ img:hover {
         margin-bottom: 20px;
         line-height: 25px;
     }
-    
+
+    .pic6,
+    .pic7,
+    .pic8 {
+        height: 350px;
+        width: 350px;
+        position: center;
+        margin-left: 3px;
+        border-radius: 50%;
+        border: 3px solid #333;
+        padding: 2px;
+        background-color: #fff;
+
+    }
 
 
 
+
+
+}
+
+@media screen and (min-width: 800px) {
+
+    #location {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: stretch;
+        align-items: baseline;
+        justify-content: space-around;
+    }
 
 
 }
