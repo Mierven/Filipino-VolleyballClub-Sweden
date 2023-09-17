@@ -25,8 +25,8 @@ h2 {
 
 #Logo {
 
-    font-size: 250%;
-    text-decoration: none;
+    font-size: 300%;
+    letter-spacing: 4px;
 
 }
 
@@ -60,7 +60,7 @@ h2 {
 #navbar li {
     float: right;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 #navbar a {
