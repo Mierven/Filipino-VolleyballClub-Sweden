@@ -220,6 +220,11 @@ h2 {
 .undertext {
     text-decoration: underline;
 }
+#contact {display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;}
 
 
 
