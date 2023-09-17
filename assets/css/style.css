@@ -25,14 +25,17 @@ h2 {
 
 #Logo {
 
-    font-size: 300%;
+    font-size: 270%;
     letter-spacing: 4px;
+    
+    
 
 }
 
 #logo1a {
     text-align: center;
-    padding: 70px;
+    padding: 0px;
+    
 }
 
 #logo1a h1 {
@@ -59,7 +62,7 @@ h2 {
 
 #navbar,
 #Logo {
-    line-height: 75px;
+    line-height: 50px;
 
 }
 
@@ -91,7 +94,7 @@ h2 {
 /*fvcs-image*/
 
 #fvcs-image {
-    height: 800px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 
@@ -373,6 +376,8 @@ img:hover {
 #member-logo {
 
     font-size: 270%;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 
