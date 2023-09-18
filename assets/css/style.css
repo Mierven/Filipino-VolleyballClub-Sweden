@@ -27,7 +27,7 @@ h2 {
 
     font-size: 270%;
     letter-spacing: 4px;
-
+    margin-left: 5px;
 
 
 }
@@ -88,6 +88,9 @@ h2 {
 
 #fvcsimage1a {
     height: 950px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 
 
@@ -165,7 +168,8 @@ h2 {
 
 /*previous tournament*/
 
-
+#prev {margin-left: 5px;
+    margin-right: 5px;}
 .pic1,
 .pic2,
 .pic3,
@@ -190,6 +194,8 @@ h2 {
 }
 
 /*location of practices*/
+#location {
+          text-align: center;}
 .pic6,
 .pic7,
 .pic8 {
