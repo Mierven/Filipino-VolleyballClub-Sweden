@@ -129,7 +129,7 @@ h2 {
 
 @keyframes fvcs-zoom {
     from {
-        transform: scale (1);
+        transform: scale(1);
     }
 
     to {
