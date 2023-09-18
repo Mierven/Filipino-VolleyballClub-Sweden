@@ -63,4 +63,4 @@ I believe i made a website that will works and easy to access with corresponing 
 - HTML
   - No error will returned when passing through the official W3C validator.
 - CSS
-  - 
+  - There are only four errors in CSS i dont know why but the code doesnt break and the properties with corresponding values is in effect. 
