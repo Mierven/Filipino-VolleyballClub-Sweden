@@ -4,7 +4,7 @@ This website is a sports organizations club for filipinos living and working in 
 
 This will provide also information of previous and future events and activities to be held locally and even inter-europian tournament somewhere in Sweden and outside of the country.
 
-![Responsice Mockup](assets/images/resposiv-image.png)
+![Responsice Mockup](assets/images//resposiv-image.png)
 
 Features
 
