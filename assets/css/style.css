@@ -56,7 +56,7 @@ h2 {
     font: 100%;
     letter-spacing: 4px;
     padding-top: 20px;
-    margin: 0;
+    padding-bottom: 50px;
 
 }
 
@@ -305,7 +305,7 @@ h2 {
 .pics {
     height: 206px;
     width: 206px;
-
+    max-width: 1000px;
     margin-left: 3px;
     border-top-left-radius: 20px;
     border-top-right-radius: 60px;
