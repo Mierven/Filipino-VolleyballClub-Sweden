@@ -60,3 +60,7 @@ I believe i made a website that will works and easy to access with corresponing 
 
 ## Validator Testing
 
+- HTML
+  - No error will returned when passing through the official W3C validator.
+- CSS
+  - 
