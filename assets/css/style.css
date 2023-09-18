@@ -34,6 +34,10 @@ h2 {
 
 }
 
+#Logo a {
+    text-decoration: none;
+}
+
 #logo1a {
     text-align: center;
     padding: 0px;
