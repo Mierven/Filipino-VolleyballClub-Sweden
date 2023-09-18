@@ -373,7 +373,10 @@ img:hover {
 
 
 #images {
-    padding-top: 100px;
+
+    max-width: 846px;
+    margin: 0 auto;
+
 
 }
 
