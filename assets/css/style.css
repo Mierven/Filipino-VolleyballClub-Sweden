@@ -440,6 +440,10 @@ img:hover {
     color: inherit;
 }
 
+.join-button {
+    background-color: rgb(255, 127, 221);
+}
+
 #fvcs-logo {
     height: 700px;
     background: url('../images/fvcs-logo.jpg') no-repeat center center;
