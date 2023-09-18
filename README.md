@@ -4,7 +4,7 @@ This website is a sports organizations club for filipinos living and working in 
 
 This will provide also information of previous and future events and activities to be held locally and even inter-europian tournament somewhere in Sweden and outside of the country.
 
-![Responsice Mockup](assets/images//resposiv-image.png)
+![Responsice Mockup](doc/resposiv-image.png)
 
 Features
 
@@ -22,7 +22,7 @@ Whereas navagation bar is located for the user to navagate each containing pages
 
 
 
-![Index](/assets/images/landing-photos.jpg)
+![Index](doc/landing-photos.jpg)
 
 ## __Gallery__
 
@@ -30,20 +30,20 @@ With the Gallery page, the user will able to see member and staffs who contribut
 
 Within the gallery differents team also presented with previous tournament and even some special awrdies of the previous events. 
 
-![Gallery](/assets/images/galelery-photos.jpg)
+![Gallery](doc/galelery-photos.jpg)
 
 ## __Log-in/Sign-up__
 
 On this page we have the simple login/sign up features for new and old members to be able to log in. For now i am using <https://formdump.codeinstitute.net/> for the user to see there registration form or the data that that has been submitted with their infromation, firstname lastname and emailaddress.
 
-![sign up](/assets/images/signup-forms.jpg)
-![Form submitted](/assets/images/form-submitted-data.png)
+![sign up](doc/signup-forms.jpg)
+![Form submitted](doc/form-submitted-data.png)
 
 ## __Previous-tournaments__
 
 The user sees previous tournaments done and able to see the team awardies, third runner-up, second runner-up and fisrt runner-up and the champions.
 
-![Tournaments](/assets/images/previous-tournaments.jpg)
+![Tournaments](doc/previous-tournaments.jpg)
 
 ## __Features left to Implement__
 

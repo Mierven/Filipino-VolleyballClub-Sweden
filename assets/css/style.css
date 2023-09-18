@@ -17,6 +17,12 @@ body {
 }
 
 /* Headings and Logo*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
 h1,
 h2 {
     font-family: 'Oswald', sans-serif;
@@ -105,7 +111,7 @@ h2 {
     height: 800px;
     width: 100%;
     overflow: hidden;
-
+    top: 0px;
     position: relative;
     padding: 16px;
     text-align: left;
