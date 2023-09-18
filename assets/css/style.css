@@ -397,24 +397,13 @@ img:hover {
     margin-bottom: 0;
 }
 
-
-
-#signup {
-
-    background-size: cover;
-    background-position: 30%;
-    padding: 20px 30% 0 30%;
-    flex-grow: 1;
-    display: inline-block;
-
-}
-
-
 #signup-form {
     color: #ffffff;
     background-color: rgba(212, 22, 22, 0.6);
     padding: 30px;
     border-radius: 75px 75px;
+    width: 400px;
+    margin: 15px auto;
 }
 
 
