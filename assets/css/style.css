@@ -14,11 +14,6 @@ body {
 }
 
 /* Headings and Logo*/
-#header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0;
-}
 
 h1,
 h2 {
@@ -29,11 +24,9 @@ h2 {
 }
 
 #Logo {
-
     font-size: 270%;
     letter-spacing: 4px;
     margin-left: 5px;
-
 }
 
 #header a {
@@ -43,13 +36,11 @@ h2 {
 #logo1a {
     text-align: center;
     padding: 0px;
-
 }
 
 #logo1a h1 {
     color: black;
 }
-
 
 /*navagation links*/
 
@@ -60,6 +51,8 @@ h2 {
     padding-bottom: 50px;
 
 }
+
+#headnav {}
 
 #navbar {
     display: flex;
