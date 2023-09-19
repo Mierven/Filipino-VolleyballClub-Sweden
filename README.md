@@ -32,7 +32,7 @@ Within the gallery differents team also presented with previous tournament and e
 
 ## Log-in/Sign-up
 
-On this page we have the simple login/sign up features for new and old members to be able to log in. For now i am using <https://formdump.codeinstitute.net/> for the user to see there registration form or the data that that has been submitted with their infromation, firstname lastname and emailaddress.
+On this page we have the simple login/sign up features for new and old members to be able to log in. For now i am using <https://formdump.codeinstitute.net/> for the user to see there registration form or the data that that has been submitted with their infromation, first-name last-name and email_address.
 
 ![sign up](doc/sign-up.jpg)
 ![Form submitted](doc/form-submitted-data.png)
