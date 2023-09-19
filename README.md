@@ -65,7 +65,7 @@ I believe i made a website that will works and easy to access with corresponing 
 - Accessibility
   - There were also very good results from the Light house as three values were green and one above 60%.
   - 
-![Light house](doc/lighthouse.jpg)
+![Light house](doc/lighthouse-new.jpg)
 
  ## Unfixed Bugs
   - No unfixed bugs
