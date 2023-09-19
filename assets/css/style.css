@@ -432,6 +432,11 @@ img:hover {
         margin-left: 30px;
     }
 
+    #signup-form {
+        height: 300px;
+        width: 190px;
+    }
+
     #navform {
         display: flex;
         justify-content: space-between;
