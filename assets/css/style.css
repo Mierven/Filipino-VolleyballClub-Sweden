@@ -300,6 +300,7 @@ h2 {
     font-size: 270%;
 }
 
+
 #gallerynav {
     font: 120%;
     letter-spacing: 4px;
@@ -355,7 +356,7 @@ img:hover {
 #images {
 
     max-width: 846px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 /*contact*/
@@ -389,6 +390,10 @@ img:hover {
 #signup-form>h2 {
     color: #fafafa;
     margin-top: auto;
+}
+
+#nav {
+    margin-bottom: 50px;
 }
 
 #navform {
@@ -470,6 +475,7 @@ img:hover {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
 
     .pic6,
     .pic7,
