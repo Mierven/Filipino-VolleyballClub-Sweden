@@ -35,7 +35,7 @@ h2 {
 
 #logo1a {
     text-align: center;
-    padding: 0px;
+    padding: 10px;
 }
 
 #logo1a h1 {
@@ -51,8 +51,6 @@ h2 {
     padding-bottom: 50px;
 
 }
-
-#headnav {}
 
 #navbar {
     display: flex;
