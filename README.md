@@ -4,7 +4,7 @@ This website is a sports organizations club for filipinos living and working in 
 
 This will provide also information of previous and future events and activities to be held locally and even inter-europian tournament somewhere in Sweden and outside of the country.
 
-![Responsice Mockup](doc/resposiv-image.jpg)
+![Responsice Mockup](doc/responsiv.jpg)
 
 Features
 
@@ -20,7 +20,7 @@ Index HTML is our homepage and introduction of the organization/club and also de
 
 Whereas navagation bar is located for the user to navagate each containing pages within the website.
 
-![Index](doc/landing-photos.jpg)
+![Index](doc/landing.jpg)
 
 ## __Gallery__
 
@@ -34,7 +34,7 @@ Within the gallery differents team also presented with previous tournament and e
 
 On this page we have the simple login/sign up features for new and old members to be able to log in. For now i am using <https://formdump.codeinstitute.net/> for the user to see there registration form or the data that that has been submitted with their infromation, firstname lastname and emailaddress.
 
-![sign up](doc/signup.jpg)
+![sign up](doc/sign-up.jpg)
 ![Form submitted](doc/form-submitted-data.png)
 
 ## __Previous-tournaments__
@@ -61,4 +61,8 @@ I believe i made a website that will works and easy to access with corresponing 
 - HTML
   - No error will returned when passing through the official W3C validator.
 - CSS
-  - There are only four errors in CSS i dont know why but the code doesnt break and the properties with corresponding values is in effect. 
+  - No error will returned when passing through the official W3C css Jigsaw Validator.
+- Accessibility
+  - There were also very good results from the Light house as three values were green and one above 60%.
+  - 
+![Light house](doc/lighthouse.jpg)
